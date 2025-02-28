@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import { baseUrl } from "../../api/baseUrl";
+import baseUrl from "../../api/baseUrl";
 
 const initialState = {
   categories: [],
