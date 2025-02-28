@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import { baseUrl } from "../../../../Public/api/baseUrl";
+import { baseUrl } from "../../api/baseUrl";
 
 const initialState = {
   books: [],
