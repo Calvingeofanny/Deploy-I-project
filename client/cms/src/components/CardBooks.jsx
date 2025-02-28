@@ -5,7 +5,7 @@ import { useNavigate } from "react-router";
 import axios from "axios";
 import Toastify from "toastify-js";
 import gifLoading from "../assets/Pulse-1s-284px.svg";
-import { baseUrl } from "../../api/baseUrl";
+import { baseUrl } from "../api/baseUrl";
 
 export default function CardBooks() {
   const { books, loading, error } = useSelector((state) => state.booksReducer);

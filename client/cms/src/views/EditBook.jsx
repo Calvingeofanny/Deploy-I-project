@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import gifLoading from "../assets/Pulse-1s-284px.svg";
 import Toastify from "toastify-js";
 import { fetchCategoriesAsync } from "../features/categories/categories-slice";
-import { baseUrl } from "../../api/baseUrl";
+import { baseUrl } from "../../src/api/baseUrl";
 
 export default function EditBook() {
   const navigate = useNavigate();

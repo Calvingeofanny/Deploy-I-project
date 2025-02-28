@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import axios from "axios";
 import { useEffect } from "react";
 import Toastify from "toastify-js";
-import { baseUrl } from "../../api/baseUrl";
+import { baseUrl } from "../../src/api/baseUrl";
 
 export default function Login() {
   const [email, setEmail] = useState("");
